@@ -1,6 +1,6 @@
 @font-face {
     font-family: poppin;
-    src: url('/Assets/Fonts/Poppins-Regular.ttf');
+    src: url('../Assets/Fonts/Poppins-Regular.ttf');
 }
 
 *{
@@ -56,6 +56,7 @@
     display: flex;
     
     justify-content: center;
+    margin-top: 50px;
     align-items: center;
 }
 .img-part img{
@@ -89,6 +90,68 @@
 }
 
 .welcome-para{
-    width: 480px;
+    width: 680px;
+}
+
+.Explore-btn{
+    display: flex;
+    margin-top: 10px;
+    padding: 15px 40px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    font-size: 14px;
+    align-items: center;
+    gap: 5px;
+}
+.Explore-btn img{
+    height: 25px;
 }
 /* Under Navbar Ended */
+
+/* Donations Types */
+
+.Main-Donation{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.Donation-Types{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    padding: 20px;
+    
+    background-color: rgba(182, 239, 73, 0.2);
+    border-radius: 10px;
+}
+
+.box{
+    background-color: white;
+    color: black;
+    padding: 16px 24px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+.bg-green{
+    background-color: rgb(141, 198, 63);
+    color: white;
+}
+.General-label{
+    background-color: #666666;
+    color: white;
+    
+        padding: 20px;
+}
+.General-input{
+    font-size: 12px;
+    padding: 20px;
+}
+.main-general{
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Donations Types */
